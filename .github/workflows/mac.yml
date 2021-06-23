@@ -10,6 +10,10 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Install Microsoft Edge
+      run: |
+        brew update
+        brew install --cask microsoft-edge    
     - name: Setting the environment up.
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
