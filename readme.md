@@ -12,5 +12,3 @@ https://dashboard.ngrok.com
 default user : vncuser
 
 vncpassword : Area69Lab
-
-default password : Area69Lab
